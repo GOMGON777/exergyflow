@@ -83,7 +83,7 @@ fig.savefig("brayton.svg", dpi=300, bbox_inches="tight")
 - Built-in unit formatting for labels keeps diagrams engineering-ready.
 
 ## Details
-- Supported Python versions: 3.9–3.12 (see `pyproject.toml`).
+- Supported Python versions: 3.9–3.14 (see `pyproject.toml`).
 - `flow_label_mode` options: `name_value_units` (default), `value_units`, `value_only`.
 - Units formatting: `flow_value_unit`, `flow_value_format`, `flow_value_unit_sep`.
 - Auto-layout expects a DAG; use `cycle_breaker=True` on a process→process flow to break cycles.
