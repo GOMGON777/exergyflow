@@ -12,6 +12,11 @@ license = {file = "LICENSE"}
 authors = [
   {name = "Juan Andrés Gómez González", email = "ja.gomez@uniandes.edu.co"},
 ]
+
+[project.urls]
+Homepage = "https://github.com/GOMGON777/exergyflow"
+Issues = "https://github.com/GOMGON777/exergyflow/issues"
+
 keywords = [
   "exergy",
   "energy",
