@@ -1,4 +1,4 @@
-﻿# ExergyFlow
+# ExergyFlow
 
 Grassmann/Sankey diagrams for energy and exergy analysis
 
