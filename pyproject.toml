@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exergyflow"
+version = "0.1.0"
+description = "Sankey and Grassmann diagrams for energy and exergy analysis"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Juan Andrés Gómez González", email = "ja.gomez@uniandes.edu.co"},
+]
+keywords = [
+  "exergy",
+  "energy",
+  "grassmann",
+  "grassmann diagram",
+  "grassmann diagrams",
+  "sankey",
+  "sankey diagram",
+  "sankey diagrams",
+  "thermodynamics",
+  "thermodynamic analysis",
+  "visualization",
+  "flow visualization",
+  "data visualization",
+  "engineering",
+  "process engineering",
+  "thermal systems",
+  "exergy analysis",
+  "energy analysis",
+  "flow diagram",
+  "scientific visualization",
+  "python sankey",
+  "python exergy",
+  "python thermodynamics",
+  "brayton cycle",
+  "rankine cycle",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Education",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Scientific/Engineering :: Visualization",
+  "Topic :: Scientific/Engineering :: Physics",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+  "matplotlib>=3.7",
+  "numpy>=1.23",
+]
+
+[tool.setuptools]
+packages = [
+  "exergyflow",
+]

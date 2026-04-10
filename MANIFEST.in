@@ -1,0 +1,9 @@
+﻿include README.md
+include docs/STEP_BY_STEP.md
+include docs/CHEATSHEET.md
+include docs/diagram.svg
+include LICENSE
+include pyproject.toml
+include requirements.txt
+recursive-exclude __pycache__ *
+recursive-exclude tests __pycache__ *
