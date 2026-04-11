@@ -1,8 +1,8 @@
-# ExergyFlow
+![ExergyFlow logo](https://raw.githubusercontent.com/GOMGON777/exergyflow/main/docs/ExergyFlowLogo.png)
 
-Grassmann/Sankey diagrams for energy and exergy analysis
+# ExergyFlow: Grassmann/Sankey diagrams for energy and exergy analysis
 
-![ExergyFlow diagram](docs/diagram.svg)
+![ExergyFlow diagram](https://raw.githubusercontent.com/GOMGON777/exergyflow/main/docs/diagram.svg)
 
 ## Install
 ```bash
@@ -91,8 +91,46 @@ fig.savefig("brayton.svg", dpi=300, bbox_inches="tight")
 - Matplotlib-native output: export PNG, SVG, or PDF via `fig.savefig(...)`.
 
 ## Docs
-- [Step-by-step guide](docs/STEP_BY_STEP.md)
-- [Cheatsheet](docs/CHEATSHEET.md)
+- [Step-by-step guide](https://github.com/GOMGON777/exergyflow/blob/main/docs/STEP_BY_STEP.md)
+- [Cheatsheet](https://github.com/GOMGON777/exergyflow/blob/main/docs/CHEATSHEET.md)
 
-## Adavanced example
-For an advanced example see: [Example script](examples/grassmann_example.py)
+## Advanced example
+For an advanced example see: [Example script](https://github.com/GOMGON777/exergyflow/blob/main/examples/grassmann_example.py)
+
+
+## Citation
+
+If you use ExergyFlow in your scientific work, please consider citing it to support ongoing development. You can cite ExergyFlow using the following BibTeX entry:
+
+@software{ExergyFlow,
+     author = {Gómez González, Juan Andrés},
+     title = {{ExergyFlow}: Energy and Exergy Diagrams in Python},
+     note = {Available at PyPi}
+     url = {https://github.com/GOMGON777/ExergyFlow},
+     version = {0.1.1},
+     year = {2026}
+}
+
+## License
+
+MIT License
+
+Copyright (c) 2026 Juan Andrés Gómez González
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

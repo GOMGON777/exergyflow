@@ -549,10 +549,12 @@ def draw_process(
                 'top' if triangle_side == 'auto' else triangle_side)
             if side not in ('top', 'bottom'):
                 side = 'top'
-            # Flip orientation (which cathet extends) based on imbalance sign
-            flip = diff > 0
+            # Choose the apex corner in a horizontal process.
+            # For right-facing processes, excess outflow (diff > 0) should use the right corner.
+            # For left-facing processes, excess inflow (diff < 0) should use the right corner.
+            use_right_corner = diff > 0 if process.direction == 'right' else diff < 0
             if side == 'top':
-                if flip:
+                if use_right_corner:
                     tri_pts = [(x0, y1 - eps_overlap), (x1, y1 -
                                                         eps_overlap), (x1, y1 + tri_height)]
                     A = (x1, y1)
@@ -561,7 +563,7 @@ def draw_process(
                                                         eps_overlap), (x0, y1 + tri_height)]
                     A = (x0, y1)
             else:
-                if flip:
+                if use_right_corner:
                     tri_pts = [(x0, y0 + eps_overlap), (x1, y0 +
                                                         eps_overlap), (x1, y0 - tri_height)]
                     A = (x1, y0)

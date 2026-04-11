@@ -4,19 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "exergyflow"
-version = "0.1.0"
+version = "0.1.2"
 description = "Sankey and Grassmann diagrams for energy and exergy analysis"
 readme = "README.md"
 requires-python = ">=3.9"
 license = {file = "LICENSE"}
 authors = [
-  {name = "Juan Andrés Gómez González", email = "ja.gomez@uniandes.edu.co"},
+  {name = "Juan Andrés Gómez González", email = "ja.gomezg@uniandes.edu.co"},
 ]
-
-[project.urls]
-Homepage = "https://github.com/GOMGON777/exergyflow"
-Issues = "https://github.com/GOMGON777/exergyflow/issues"
-
 keywords = [
   "exergy",
   "energy",
@@ -62,6 +57,7 @@ classifiers = [
   "Topic :: Scientific/Engineering :: Physics",
   "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+
 dependencies = [
   "matplotlib>=3.7",
   "numpy>=1.23",
@@ -71,3 +67,9 @@ dependencies = [
 packages = [
   "exergyflow",
 ]
+
+
+[project.urls]
+Homepage = "https://github.com/GOMGON777/exergyflow"
+Issues = "https://github.com/GOMGON777/exergyflow/issues"
+
