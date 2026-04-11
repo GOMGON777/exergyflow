@@ -102,7 +102,7 @@ For an advanced example see: [Example script](https://github.com/GOMGON777/exerg
 
 If you use ExergyFlow in your scientific work, please consider citing it to support ongoing development. You can cite ExergyFlow using the following BibTeX entry:
 
-.. code::
+```bibtex
     @software{ExergyFlow,
         author = {Gómez González, Juan Andrés},
         title = {{ExergyFlow}: Energy and Exergy Diagrams in Python},
@@ -111,6 +111,7 @@ If you use ExergyFlow in your scientific work, please consider citing it to supp
         url = {https://github.com/GOMGON777/exergyflow},
         note = {Python package available on PyPI}
     }
+```
 
 ## License
 
